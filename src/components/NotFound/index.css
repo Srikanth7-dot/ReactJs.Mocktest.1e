@@ -1,0 +1,39 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8fafc; /* Light background for overall page */
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  color: #334155;
+  text-align: center;
+}
+
+.not-found-image {
+  width: 300px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.not-found-head {
+  font-size: 36px;
+  font-weight: bold;
+  color: #334155;
+  margin: 0;
+}
+
+.not-found-para {
+  font-size: 18px;
+  font-weight: 400;
+  color: #64748b;
+  margin: 10px 0 0;
+  line-height: 1.5;
+}

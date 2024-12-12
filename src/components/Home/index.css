@@ -1,0 +1,94 @@
+/* General styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8fafc; /* Subtle light background */
+}
+
+/* Container styles */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff; /* White background for the main container */
+  color: #334155;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Register view styles */
+.register-details-container {
+  background-color: #f1f5f9; /* Light grayish-blue for contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: #334155;
+}
+
+.register-para {
+  font-size: 18px;
+  font-weight: 400;
+  color: #64748b;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  background-color: #3b82f6; /* Primary blue */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #2563eb; /* Slightly darker blue on hover */
+}
+
+/* Registered view styles */
+.details-container {
+  background-color: #e2e8f0; /* Softer light blue */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.greeting {
+  font-size: 24px;
+  font-weight: bold;
+  color: #334155;
+}
+
+.course {
+  font-size: 18px;
+  font-weight: 400;
+  color: #475569;
+  margin-top: 10px;
+}
+
+/* Image styling */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
